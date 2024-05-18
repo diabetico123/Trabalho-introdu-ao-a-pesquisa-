@@ -1,0 +1,46 @@
+1. Arquivos de Dados:
+
+tweets.csv: O arquivo CSV contendo os tweets utilizados na análise, com as colunas "texto" e "sentimento".
+stop_words.txt: Uma lista de stop words em português a serem removidas dos tweets.
+2. Código Python:
+
+main.py: O script principal que implementa a reprodução da análise de sentimento.
+pre_processing.py: Funções para pré-processamento dos tweets, incluindo remoção de caracteres especiais, conversão para minúsculas, remoção de stop words e stemming.
+naive_bayes_model.py: Funções para implementar o modelo Naive Bayes e realizar a classificação dos tweets.
+evaluation.py: Funções para avaliar o desempenho do modelo Naive Bayes com base nas métricas de acurácia, precisão, revocação e F1-score.
+3. Documentação:
+
+README.md: Um arquivo Markdown que fornece instruções detalhadas sobre como usar o repositório para reproduzir a análise de sentimento.
+4. Instruções para Reprodução:
+
+Para reproduzir a análise de sentimento, siga estas etapas:
+
+Clone o repositório GitHub para o seu computador local.
+Instale as bibliotecas Python necessárias usando o comando pip install -r requirements.txt.
+Execute o script principal main.py usando o comando python main.py.
+Observações:
+
+Certifique-se de ter o Python e o pip instalados em seu computador.
+Se você encontrar qualquer problema durante a reprodução, consulte o arquivo README.md ou abra um issue no repositório GitHub.
+Detalhes da Análise e Experimento:
+
+A análise de sentimento em tweets com Naive Bayes envolve as seguintes etapas:
+
+Pré-processamento: Os tweets são pré-processados para remover caracteres especiais, converter para minúsculas, remover stop words e aplicar stemming.
+Treinamento do Modelo Naive Bayes: Um modelo Naive Bayes é treinado usando um conjunto de tweets rotulados como positivos, negativos ou neutros.
+Classificação de Tweets: O modelo Naive Bayes é utilizado para classificar novos tweets como positivos, negativos ou neutros.
+Avaliação: O desempenho do modelo Naive Bayes é avaliado com base nas métricas de acurácia, precisão, revocação e F1-score.
+Materiais e Métodos Utilizados na Reprodução:
+
+Na reprodução da análise de sentimento, foram utilizados os seguintes materiais e métodos:
+
+Linguagem de programação: Python
+Bibliotecas Python:
+pandas: Para manipulação de dados em formato CSV.
+nltk: Para pré-processamento de texto, incluindo remoção de stop words e stemming.
+scikit-learn: Para implementar o modelo Naive Bayes e realizar a classificação dos tweets.
+Métricas de avaliação: Acurácia, precisão, revocação e F1-score.
+Observações:
+
+A escolha das bibliotecas Python foi baseada em sua popularidade e adequação para a tarefa de análise de sentimento.
+As métricas de avaliação utilizadas são comumente utilizadas para avaliar o desempenho de modelos de classificação de texto.
